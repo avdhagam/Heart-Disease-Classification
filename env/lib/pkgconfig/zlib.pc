@@ -1,0 +1,13 @@
+prefix=/Users/avanidhagam/Desktop/udemy/ml-course/heart_disease_project/env
+exec_prefix=/Users/avanidhagam/Desktop/udemy/ml-course/heart_disease_project/env
+libdir=/Users/avanidhagam/Desktop/udemy/ml-course/heart_disease_project/env/lib
+sharedlibdir=/Users/avanidhagam/Desktop/udemy/ml-course/heart_disease_project/env/lib
+includedir=/Users/avanidhagam/Desktop/udemy/ml-course/heart_disease_project/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
